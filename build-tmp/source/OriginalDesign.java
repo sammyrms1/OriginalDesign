@@ -18,7 +18,7 @@ public void setup()
 {
 //size(400, 400); //Square res
 //size(854, 480); //widescreen
-size(392, 228);	//Custom res
+size(395, 230);	//Custom res
 background(0, 0, 255);
 //Font List
 //String[] fontList = PFont.list();
@@ -38,8 +38,8 @@ public void nGear()
 	PFont nGearFont;
 	nGearFont = createFont("SansSerif.plain", 30);
 	textFont (nGearFont);
-	int nGearX = 0;
-	int nGearY = 0;
+	int nGearX = 2;
+	int nGearY = 2;
 	int nGearSize = 1;	//EXPERIMENTAL
 	textAlign(CENTER, CENTER);
 
