@@ -2,7 +2,7 @@ void setup()
 {
 //size(400, 400); //Square res
 //size(854, 480); //widescreen
-size(395, 230);	//Custom res
+size(392, 230);	//Custom res
 background(0, 0, 255);
 //Font List
 //String[] fontList = PFont.list();
@@ -41,7 +41,13 @@ void nGear()
 	text("NPG", nGearX+195, nGearY+195);
 
 	//Screen
-	fill(156, 225, 255);
+	if(mousePressed == true){
+		fill(156, 225, 255);
+	}
+	else {	
+	fill(mouseX, mouseY, mouseX);
+	}
+	
 	stroke(114, 172, 219);
 	rect(nGearX+81, nGearY+46, nGearSize*225, nGearSize*130);
 
