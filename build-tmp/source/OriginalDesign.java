@@ -18,7 +18,7 @@ public void setup()
 {
 //size(400, 400); //Square res
 //size(854, 480); //widescreen
-size(393, 230);	//Custom res
+size(392, 230);	//Custom res
 background(0, 0, 255);
 //Font List
 //String[] fontList = PFont.list();
